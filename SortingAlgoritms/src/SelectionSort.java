@@ -1,5 +1,6 @@
 public class SelectionSort {
-    public void selectionSort(int[] arr){
+    
+    public void selectionSort(int[] arr){// TİME COMPLEXİTY O(N^2) SPACE COMPEXİTY O(1)
         for(int j = 0 ; j < arr.length ; j++){
             int minimumIndex = j;
             for(int i = j+1 ; i < arr.length ; i++){
