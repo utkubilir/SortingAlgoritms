@@ -1,4 +1,4 @@
-public class BubbleSorting {
+public class BubbleSorting {//Highest number in array bubble to top
     
     public void bubbleSort(int[] arr){// TİME COMPLEXİTY O(N^2) SPACE COMPLEXİTY O(N)
         int n = arr.length;
@@ -11,6 +11,22 @@ public class BubbleSorting {
                 }
             }
         }
+    }
+    public void anotherBubbleSort(int[] arr){
+        boolean swapped = true;
+        while(swapped){
+            swapped = false;
+        for(int i = 0 ; i < arr.length - 1 ; i++){
+            if (arr[i]> arr[i+1]) {
+                swapped = true;
+                int temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+
+            }
+        }
+    }
+
     }
     public void printArray(int[] arr){
         for(int i = 0 ; i < arr.length ; i++){
