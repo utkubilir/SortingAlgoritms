@@ -1,0 +1,2 @@
+I uploaded this project to GitHub to practice sorting algorithms and improve my skills. By experimenting with different sorting techniques (such as Bubble Sort, Insertion Sort, Merge Sort, etc.) through real code examples, I aim to gain a better understanding of how these algorithms work and how they differ in performance. 
+I created this repository not only to document my own learning process, but also to share my experiences with other developers who are interested in similar topics.
